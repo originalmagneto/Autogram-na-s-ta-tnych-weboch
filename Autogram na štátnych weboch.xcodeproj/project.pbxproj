@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		779BA8042BE8EED900A4AD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA8032BE8EED900A4AD5B /* AppDelegate.swift */; };
+		779BA8062BE8EED900A4AD5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA8052BE8EED900A4AD5B /* SceneDelegate.swift */; };
+		779BA8092BE8EED900A4AD5B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8082BE8EED900A4AD5B /* Base */; };
+		779BA80C2BE8EED900A4AD5B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 779BA80B2BE8EED900A4AD5B /* Base */; };
+		779BA8152BE8EED900A4AD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA8142BE8EED900A4AD5B /* AppDelegate.swift */; };
+		779BA8182BE8EED900A4AD5B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8172BE8EED900A4AD5B /* Base */; };
+		779BA8202BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 779BA81F2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		779BA82A2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 779BA8292BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		779BA8302BE8EED900A4AD5B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F42BE8EED800A4AD5B /* Base */; };
+		779BA8312BE8EED900A4AD5B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F42BE8EED800A4AD5B /* Base */; };
+		779BA8322BE8EED900A4AD5B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F52BE8EED800A4AD5B /* Icon.png */; };
+		779BA8332BE8EED900A4AD5B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F52BE8EED800A4AD5B /* Icon.png */; };
+		779BA8342BE8EED900A4AD5B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F62BE8EED800A4AD5B /* Style.css */; };
+		779BA8352BE8EED900A4AD5B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F62BE8EED800A4AD5B /* Style.css */; };
+		779BA8362BE8EED900A4AD5B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F72BE8EED800A4AD5B /* Script.js */; };
+		779BA8372BE8EED900A4AD5B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F72BE8EED800A4AD5B /* Script.js */; };
+		779BA8382BE8EED900A4AD5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA7F82BE8EED800A4AD5B /* ViewController.swift */; };
+		779BA8392BE8EED900A4AD5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA7F82BE8EED800A4AD5B /* ViewController.swift */; };
+		779BA83A2BE8EED900A4AD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F92BE8EED900A4AD5B /* Assets.xcassets */; };
+		779BA83B2BE8EED900A4AD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779BA7F92BE8EED900A4AD5B /* Assets.xcassets */; };
+		779BA83C2BE8EED900A4AD5B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA7FB2BE8EED900A4AD5B /* SafariWebExtensionHandler.swift */; };
+		779BA83D2BE8EED900A4AD5B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA7FB2BE8EED900A4AD5B /* SafariWebExtensionHandler.swift */; };
+		779BA8602BE8EED900A4AD5B /* inject.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA84F2BE8EED900A4AD5B /* inject.bundle.js */; };
+		779BA8612BE8EED900A4AD5B /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8522BE8EED900A4AD5B /* background.bundle.js */; };
+		779BA8622BE8EED900A4AD5B /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8552BE8EED900A4AD5B /* _metadata */; };
+		779BA8632BE8EED900A4AD5B /* redirect.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8562BE8EED900A4AD5B /* redirect.bundle.js */; };
+		779BA8642BE8EED900A4AD5B /* static in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8572BE8EED900A4AD5B /* static */; };
+		779BA8652BE8EED900A4AD5B /* options.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8582BE8EED900A4AD5B /* options.bundle.js */; };
+		779BA8662BE8EED900A4AD5B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8592BE8EED900A4AD5B /* manifest.json */; };
+		779BA8672BE8EED900A4AD5B /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 779BA85B2BE8EED900A4AD5B /* _locales */; };
+		779BA8682BE8EED900A4AD5B /* content.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA85C2BE8EED900A4AD5B /* content.bundle.js */; };
+		779BA8692BE8EED900A4AD5B /* inject.bundle.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 779BA85D2BE8EED900A4AD5B /* inject.bundle.js.LICENSE.txt */; };
+		779BA86A2BE8EED900A4AD5B /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA85F2BE8EED900A4AD5B /* popup.bundle.js */; };
+		779BA86B2BE8EED900A4AD5B /* inject.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA84F2BE8EED900A4AD5B /* inject.bundle.js */; };
+		779BA86C2BE8EED900A4AD5B /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8522BE8EED900A4AD5B /* background.bundle.js */; };
+		779BA86D2BE8EED900A4AD5B /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8552BE8EED900A4AD5B /* _metadata */; };
+		779BA86E2BE8EED900A4AD5B /* redirect.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8562BE8EED900A4AD5B /* redirect.bundle.js */; };
+		779BA86F2BE8EED900A4AD5B /* static in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8572BE8EED900A4AD5B /* static */; };
+		779BA8702BE8EED900A4AD5B /* options.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8582BE8EED900A4AD5B /* options.bundle.js */; };
+		779BA8712BE8EED900A4AD5B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 779BA8592BE8EED900A4AD5B /* manifest.json */; };
+		779BA8722BE8EED900A4AD5B /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 779BA85B2BE8EED900A4AD5B /* _locales */; };
+		779BA8732BE8EED900A4AD5B /* content.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA85C2BE8EED900A4AD5B /* content.bundle.js */; };
+		779BA8742BE8EED900A4AD5B /* inject.bundle.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 779BA85D2BE8EED900A4AD5B /* inject.bundle.js.LICENSE.txt */; };
+		779BA8752BE8EED900A4AD5B /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 779BA85F2BE8EED900A4AD5B /* popup.bundle.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		779BA8212BE8EED900A4AD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779BA7ED2BE8EED800A4AD5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779BA81E2BE8EED900A4AD5B;
+			remoteInfo = "Autogram na štátnych weboch Extension (iOS)";
+		};
+		779BA82B2BE8EED900A4AD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779BA7ED2BE8EED800A4AD5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779BA8282BE8EED900A4AD5B;
+			remoteInfo = "Autogram na štátnych weboch Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		779BA8432BE8EED900A4AD5B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				779BA8202BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA84A2BE8EED900A4AD5B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				779BA82A2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		779BA7F42BE8EED800A4AD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		779BA7F52BE8EED800A4AD5B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		779BA7F62BE8EED800A4AD5B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		779BA7F72BE8EED800A4AD5B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		779BA7F82BE8EED800A4AD5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		779BA7F92BE8EED900A4AD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		779BA7FB2BE8EED900A4AD5B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		779BA8002BE8EED900A4AD5B /* Autogram na štátnych weboch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autogram na štátnych weboch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779BA8032BE8EED900A4AD5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		779BA8052BE8EED900A4AD5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		779BA8082BE8EED900A4AD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		779BA80B2BE8EED900A4AD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		779BA80D2BE8EED900A4AD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779BA8122BE8EED900A4AD5B /* Autogram na štátnych weboch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autogram na štátnych weboch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779BA8142BE8EED900A4AD5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		779BA8172BE8EED900A4AD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		779BA8192BE8EED900A4AD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779BA81A2BE8EED900A4AD5B /* Autogram na štátnych weboch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Autogram na štátnych weboch.entitlements"; sourceTree = "<group>"; };
+		779BA81F2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Autogram na štátnych weboch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779BA8242BE8EED900A4AD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779BA8292BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Autogram na štátnych weboch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779BA82E2BE8EED900A4AD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779BA82F2BE8EED900A4AD5B /* Autogram na štátnych weboch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Autogram na štátnych weboch.entitlements"; sourceTree = "<group>"; };
+		779BA84F2BE8EED900A4AD5B /* inject.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inject.bundle.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/inject.bundle.js"; sourceTree = "<group>"; };
+		779BA8502BE8EED900A4AD5B /* content.bundle.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = content.bundle.js.map; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/content.bundle.js.map"; sourceTree = "<group>"; };
+		779BA8512BE8EED900A4AD5B /* options.bundle.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = options.bundle.js.map; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/options.bundle.js.map"; sourceTree = "<group>"; };
+		779BA8522BE8EED900A4AD5B /* background.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.bundle.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/background.bundle.js"; sourceTree = "<group>"; };
+		779BA8532BE8EED900A4AD5B /* popup.bundle.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = popup.bundle.js.map; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/popup.bundle.js.map"; sourceTree = "<group>"; };
+		779BA8542BE8EED900A4AD5B /* redirect.bundle.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = redirect.bundle.js.map; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/redirect.bundle.js.map"; sourceTree = "<group>"; };
+		779BA8552BE8EED900A4AD5B /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/_metadata"; sourceTree = "<group>"; };
+		779BA8562BE8EED900A4AD5B /* redirect.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = redirect.bundle.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/redirect.bundle.js"; sourceTree = "<group>"; };
+		779BA8572BE8EED900A4AD5B /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; name = static; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/static"; sourceTree = "<group>"; };
+		779BA8582BE8EED900A4AD5B /* options.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.bundle.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/options.bundle.js"; sourceTree = "<group>"; };
+		779BA8592BE8EED900A4AD5B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/manifest.json"; sourceTree = "<group>"; };
+		779BA85A2BE8EED900A4AD5B /* inject.bundle.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = inject.bundle.js.map; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/inject.bundle.js.map"; sourceTree = "<group>"; };
+		779BA85B2BE8EED900A4AD5B /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/_locales"; sourceTree = "<group>"; };
+		779BA85C2BE8EED900A4AD5B /* content.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.bundle.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/content.bundle.js"; sourceTree = "<group>"; };
+		779BA85D2BE8EED900A4AD5B /* inject.bundle.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = inject.bundle.js.LICENSE.txt; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/inject.bundle.js.LICENSE.txt"; sourceTree = "<group>"; };
+		779BA85E2BE8EED900A4AD5B /* background.bundle.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = background.bundle.js.map; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/background.bundle.js.map"; sourceTree = "<group>"; };
+		779BA85F2BE8EED900A4AD5B /* popup.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.bundle.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/lamjcijmpimfpmapeaedanjmfmgjokne/1.6.0_0/popup.bundle.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779BA7FD2BE8EED900A4AD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA80F2BE8EED900A4AD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA81C2BE8EED900A4AD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA8262BE8EED900A4AD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		779BA7EC2BE8EED800A4AD5B = {
+			isa = PBXGroup;
+			children = (
+				779BA7F12BE8EED800A4AD5B /* Shared (App) */,
+				779BA7FA2BE8EED900A4AD5B /* Shared (Extension) */,
+				779BA8022BE8EED900A4AD5B /* iOS (App) */,
+				779BA8132BE8EED900A4AD5B /* macOS (App) */,
+				779BA8232BE8EED900A4AD5B /* iOS (Extension) */,
+				779BA82D2BE8EED900A4AD5B /* macOS (Extension) */,
+				779BA8012BE8EED900A4AD5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		779BA7F12BE8EED800A4AD5B /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				779BA7F82BE8EED800A4AD5B /* ViewController.swift */,
+				779BA7F92BE8EED900A4AD5B /* Assets.xcassets */,
+				779BA7F22BE8EED800A4AD5B /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		779BA7F22BE8EED800A4AD5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				779BA7F32BE8EED800A4AD5B /* Main.html */,
+				779BA7F52BE8EED800A4AD5B /* Icon.png */,
+				779BA7F62BE8EED800A4AD5B /* Style.css */,
+				779BA7F72BE8EED800A4AD5B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		779BA7FA2BE8EED900A4AD5B /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				779BA84E2BE8EED900A4AD5B /* Resources */,
+				779BA7FB2BE8EED900A4AD5B /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		779BA8012BE8EED900A4AD5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779BA8002BE8EED900A4AD5B /* Autogram na štátnych weboch.app */,
+				779BA8122BE8EED900A4AD5B /* Autogram na štátnych weboch.app */,
+				779BA81F2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex */,
+				779BA8292BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779BA8022BE8EED900A4AD5B /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				779BA8032BE8EED900A4AD5B /* AppDelegate.swift */,
+				779BA8052BE8EED900A4AD5B /* SceneDelegate.swift */,
+				779BA8072BE8EED900A4AD5B /* LaunchScreen.storyboard */,
+				779BA80A2BE8EED900A4AD5B /* Main.storyboard */,
+				779BA80D2BE8EED900A4AD5B /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		779BA8132BE8EED900A4AD5B /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				779BA8142BE8EED900A4AD5B /* AppDelegate.swift */,
+				779BA8162BE8EED900A4AD5B /* Main.storyboard */,
+				779BA8192BE8EED900A4AD5B /* Info.plist */,
+				779BA81A2BE8EED900A4AD5B /* Autogram na štátnych weboch.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		779BA8232BE8EED900A4AD5B /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				779BA8242BE8EED900A4AD5B /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		779BA82D2BE8EED900A4AD5B /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				779BA82E2BE8EED900A4AD5B /* Info.plist */,
+				779BA82F2BE8EED900A4AD5B /* Autogram na štátnych weboch.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		779BA84E2BE8EED900A4AD5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				779BA84F2BE8EED900A4AD5B /* inject.bundle.js */,
+				779BA8502BE8EED900A4AD5B /* content.bundle.js.map */,
+				779BA8512BE8EED900A4AD5B /* options.bundle.js.map */,
+				779BA8522BE8EED900A4AD5B /* background.bundle.js */,
+				779BA8532BE8EED900A4AD5B /* popup.bundle.js.map */,
+				779BA8542BE8EED900A4AD5B /* redirect.bundle.js.map */,
+				779BA8552BE8EED900A4AD5B /* _metadata */,
+				779BA8562BE8EED900A4AD5B /* redirect.bundle.js */,
+				779BA8572BE8EED900A4AD5B /* static */,
+				779BA8582BE8EED900A4AD5B /* options.bundle.js */,
+				779BA8592BE8EED900A4AD5B /* manifest.json */,
+				779BA85A2BE8EED900A4AD5B /* inject.bundle.js.map */,
+				779BA85B2BE8EED900A4AD5B /* _locales */,
+				779BA85C2BE8EED900A4AD5B /* content.bundle.js */,
+				779BA85D2BE8EED900A4AD5B /* inject.bundle.js.LICENSE.txt */,
+				779BA85E2BE8EED900A4AD5B /* background.bundle.js.map */,
+				779BA85F2BE8EED900A4AD5B /* popup.bundle.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		779BA7FF2BE8EED900A4AD5B /* Autogram na štátnych weboch (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779BA8442BE8EED900A4AD5B /* Build configuration list for PBXNativeTarget "Autogram na štátnych weboch (iOS)" */;
+			buildPhases = (
+				779BA7FC2BE8EED900A4AD5B /* Sources */,
+				779BA7FD2BE8EED900A4AD5B /* Frameworks */,
+				779BA7FE2BE8EED900A4AD5B /* Resources */,
+				779BA8432BE8EED900A4AD5B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779BA8222BE8EED900A4AD5B /* PBXTargetDependency */,
+			);
+			name = "Autogram na štátnych weboch (iOS)";
+			productName = "Autogram na štátnych weboch (iOS)";
+			productReference = 779BA8002BE8EED900A4AD5B /* Autogram na štátnych weboch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		779BA8112BE8EED900A4AD5B /* Autogram na štátnych weboch (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779BA84B2BE8EED900A4AD5B /* Build configuration list for PBXNativeTarget "Autogram na štátnych weboch (macOS)" */;
+			buildPhases = (
+				779BA80E2BE8EED900A4AD5B /* Sources */,
+				779BA80F2BE8EED900A4AD5B /* Frameworks */,
+				779BA8102BE8EED900A4AD5B /* Resources */,
+				779BA84A2BE8EED900A4AD5B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779BA82C2BE8EED900A4AD5B /* PBXTargetDependency */,
+			);
+			name = "Autogram na štátnych weboch (macOS)";
+			productName = "Autogram na štátnych weboch (macOS)";
+			productReference = 779BA8122BE8EED900A4AD5B /* Autogram na štátnych weboch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		779BA81E2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779BA8402BE8EED900A4AD5B /* Build configuration list for PBXNativeTarget "Autogram na štátnych weboch Extension (iOS)" */;
+			buildPhases = (
+				779BA81B2BE8EED900A4AD5B /* Sources */,
+				779BA81C2BE8EED900A4AD5B /* Frameworks */,
+				779BA81D2BE8EED900A4AD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autogram na štátnych weboch Extension (iOS)";
+			productName = "Autogram na štátnych weboch Extension (iOS)";
+			productReference = 779BA81F2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		779BA8282BE8EED900A4AD5B /* Autogram na štátnych weboch Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779BA8472BE8EED900A4AD5B /* Build configuration list for PBXNativeTarget "Autogram na štátnych weboch Extension (macOS)" */;
+			buildPhases = (
+				779BA8252BE8EED900A4AD5B /* Sources */,
+				779BA8262BE8EED900A4AD5B /* Frameworks */,
+				779BA8272BE8EED900A4AD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autogram na štátnych weboch Extension (macOS)";
+			productName = "Autogram na štátnych weboch Extension (macOS)";
+			productReference = 779BA8292BE8EED900A4AD5B /* Autogram na štátnych weboch Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779BA7ED2BE8EED800A4AD5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					779BA7FF2BE8EED900A4AD5B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					779BA8112BE8EED900A4AD5B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					779BA81E2BE8EED900A4AD5B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					779BA8282BE8EED900A4AD5B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 779BA7F02BE8EED800A4AD5B /* Build configuration list for PBXProject "Autogram na štátnych weboch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 779BA7EC2BE8EED800A4AD5B;
+			productRefGroup = 779BA8012BE8EED900A4AD5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779BA7FF2BE8EED900A4AD5B /* Autogram na štátnych weboch (iOS) */,
+				779BA8112BE8EED900A4AD5B /* Autogram na štátnych weboch (macOS) */,
+				779BA81E2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension (iOS) */,
+				779BA8282BE8EED900A4AD5B /* Autogram na štátnych weboch Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		779BA7FE2BE8EED900A4AD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779BA8322BE8EED900A4AD5B /* Icon.png in Resources */,
+				779BA8092BE8EED900A4AD5B /* Base in Resources */,
+				779BA8302BE8EED900A4AD5B /* Base in Resources */,
+				779BA8362BE8EED900A4AD5B /* Script.js in Resources */,
+				779BA83A2BE8EED900A4AD5B /* Assets.xcassets in Resources */,
+				779BA80C2BE8EED900A4AD5B /* Base in Resources */,
+				779BA8342BE8EED900A4AD5B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA8102BE8EED900A4AD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779BA8332BE8EED900A4AD5B /* Icon.png in Resources */,
+				779BA8352BE8EED900A4AD5B /* Style.css in Resources */,
+				779BA8182BE8EED900A4AD5B /* Base in Resources */,
+				779BA8372BE8EED900A4AD5B /* Script.js in Resources */,
+				779BA83B2BE8EED900A4AD5B /* Assets.xcassets in Resources */,
+				779BA8312BE8EED900A4AD5B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA81D2BE8EED900A4AD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779BA8732BE8EED900A4AD5B /* content.bundle.js in Resources */,
+				779BA8742BE8EED900A4AD5B /* inject.bundle.js.LICENSE.txt in Resources */,
+				779BA86F2BE8EED900A4AD5B /* static in Resources */,
+				779BA8752BE8EED900A4AD5B /* popup.bundle.js in Resources */,
+				779BA8712BE8EED900A4AD5B /* manifest.json in Resources */,
+				779BA8722BE8EED900A4AD5B /* _locales in Resources */,
+				779BA86D2BE8EED900A4AD5B /* _metadata in Resources */,
+				779BA8702BE8EED900A4AD5B /* options.bundle.js in Resources */,
+				779BA86B2BE8EED900A4AD5B /* inject.bundle.js in Resources */,
+				779BA86C2BE8EED900A4AD5B /* background.bundle.js in Resources */,
+				779BA86E2BE8EED900A4AD5B /* redirect.bundle.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA8272BE8EED900A4AD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779BA8682BE8EED900A4AD5B /* content.bundle.js in Resources */,
+				779BA8692BE8EED900A4AD5B /* inject.bundle.js.LICENSE.txt in Resources */,
+				779BA8642BE8EED900A4AD5B /* static in Resources */,
+				779BA86A2BE8EED900A4AD5B /* popup.bundle.js in Resources */,
+				779BA8662BE8EED900A4AD5B /* manifest.json in Resources */,
+				779BA8672BE8EED900A4AD5B /* _locales in Resources */,
+				779BA8622BE8EED900A4AD5B /* _metadata in Resources */,
+				779BA8652BE8EED900A4AD5B /* options.bundle.js in Resources */,
+				779BA8602BE8EED900A4AD5B /* inject.bundle.js in Resources */,
+				779BA8612BE8EED900A4AD5B /* background.bundle.js in Resources */,
+				779BA8632BE8EED900A4AD5B /* redirect.bundle.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		779BA7FC2BE8EED900A4AD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779BA8382BE8EED900A4AD5B /* ViewController.swift in Sources */,
+				779BA8042BE8EED900A4AD5B /* AppDelegate.swift in Sources */,
+				779BA8062BE8EED900A4AD5B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA80E2BE8EED900A4AD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779BA8392BE8EED900A4AD5B /* ViewController.swift in Sources */,
+				779BA8152BE8EED900A4AD5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA81B2BE8EED900A4AD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779BA83C2BE8EED900A4AD5B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779BA8252BE8EED900A4AD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779BA83D2BE8EED900A4AD5B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		779BA8222BE8EED900A4AD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779BA81E2BE8EED900A4AD5B /* Autogram na štátnych weboch Extension (iOS) */;
+			targetProxy = 779BA8212BE8EED900A4AD5B /* PBXContainerItemProxy */;
+		};
+		779BA82C2BE8EED900A4AD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779BA8282BE8EED900A4AD5B /* Autogram na štátnych weboch Extension (macOS) */;
+			targetProxy = 779BA82B2BE8EED900A4AD5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		779BA7F32BE8EED800A4AD5B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779BA7F42BE8EED800A4AD5B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		779BA8072BE8EED900A4AD5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779BA8082BE8EED900A4AD5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		779BA80A2BE8EED900A4AD5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779BA80B2BE8EED900A4AD5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		779BA8162BE8EED900A4AD5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779BA8172BE8EED900A4AD5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		779BA83E2BE8EED900A4AD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		779BA83F2BE8EED900A4AD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		779BA8412BE8EED900A4AD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Autogram na štátnych weboch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.slovensko.ekosystem.Autogram-na-s-ta-tnych-weboch.Extension";
+				PRODUCT_NAME = "Autogram na štátnych weboch Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779BA8422BE8EED900A4AD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Autogram na štátnych weboch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.slovensko.ekosystem.Autogram-na-s-ta-tnych-weboch.Extension";
+				PRODUCT_NAME = "Autogram na štátnych weboch Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779BA8452BE8EED900A4AD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Autogram na štátnych weboch";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.slovensko.ekosystem.Autogram-na-s-ta-tnych-weboch";
+				PRODUCT_NAME = "Autogram na štátnych weboch";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779BA8462BE8EED900A4AD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Autogram na štátnych weboch";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.slovensko.ekosystem.Autogram-na-s-ta-tnych-weboch";
+				PRODUCT_NAME = "Autogram na štátnych weboch";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779BA8482BE8EED900A4AD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Autogram na štátnych weboch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Autogram na štátnych weboch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.slovensko.ekosystem.Autogram-na-s-ta-tnych-weboch.Extension";
+				PRODUCT_NAME = "Autogram na štátnych weboch Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		779BA8492BE8EED900A4AD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Autogram na štátnych weboch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Autogram na štátnych weboch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.slovensko.ekosystem.Autogram-na-s-ta-tnych-weboch.Extension";
+				PRODUCT_NAME = "Autogram na štátnych weboch Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		779BA84C2BE8EED900A4AD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Autogram na štátnych weboch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Autogram na štátnych weboch";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.slovensko.ekosystem.Autogram-na-s-ta-tnych-weboch";
+				PRODUCT_NAME = "Autogram na štátnych weboch";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		779BA84D2BE8EED900A4AD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Autogram na štátnych weboch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Autogram na štátnych weboch";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.slovensko.ekosystem.Autogram-na-s-ta-tnych-weboch";
+				PRODUCT_NAME = "Autogram na štátnych weboch";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		779BA7F02BE8EED800A4AD5B /* Build configuration list for PBXProject "Autogram na štátnych weboch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779BA83E2BE8EED900A4AD5B /* Debug */,
+				779BA83F2BE8EED900A4AD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779BA8402BE8EED900A4AD5B /* Build configuration list for PBXNativeTarget "Autogram na štátnych weboch Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779BA8412BE8EED900A4AD5B /* Debug */,
+				779BA8422BE8EED900A4AD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779BA8442BE8EED900A4AD5B /* Build configuration list for PBXNativeTarget "Autogram na štátnych weboch (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779BA8452BE8EED900A4AD5B /* Debug */,
+				779BA8462BE8EED900A4AD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779BA8472BE8EED900A4AD5B /* Build configuration list for PBXNativeTarget "Autogram na štátnych weboch Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779BA8482BE8EED900A4AD5B /* Debug */,
+				779BA8492BE8EED900A4AD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779BA84B2BE8EED900A4AD5B /* Build configuration list for PBXNativeTarget "Autogram na štátnych weboch (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779BA84C2BE8EED900A4AD5B /* Debug */,
+				779BA84D2BE8EED900A4AD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779BA7ED2BE8EED800A4AD5B /* Project object */;
+}
